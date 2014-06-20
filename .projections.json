@@ -1,0 +1,6 @@
+{
+  "*": {"make": ["rake", "-f", "{project}/Rakefile"]},
+  "*.rb": {"indent": 2},
+  "lib/*.rb": {"alternate": "spec/{}_spec.rb"},
+  "spec/*_spec.rb": {"dispatch": ["rspec", "{file}"], "alternate": "lib/{}.rb"}
+}

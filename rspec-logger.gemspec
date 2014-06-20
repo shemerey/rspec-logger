@@ -5,7 +5,7 @@ require 'rspec/logger/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec-logger"
-  spec.version       = Rspec::Logger::VERSION
+  spec.version       = RSpec::Logger::VERSION
   spec.authors       = ["Anton Shemerey"]
   spec.email         = ["shemerey@gmail.com"]
   spec.summary       = %q{More readable log output}
@@ -21,5 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rspec"
 
   spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "pry"
   spec.add_development_dependency "rake"
 end
