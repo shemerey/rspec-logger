@@ -3,6 +3,8 @@ rspec-logger
 
 Simple wrapper around rspec example to make log output more useful
 
+![](https://raw.githubusercontent.com/shemerey/rspec-logger/master/assets/logger.gif)
+
 ## Installation
 
 Add this line to your application's Gemfile:
